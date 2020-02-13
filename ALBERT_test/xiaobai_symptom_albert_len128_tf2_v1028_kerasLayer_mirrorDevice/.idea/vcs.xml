@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/bert_src2_eagerTrain_kerasLayers_add_decode" vcs="Git" />
+  </component>
+</project>

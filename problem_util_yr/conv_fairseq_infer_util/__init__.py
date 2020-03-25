@@ -1,0 +1,1 @@
+#all=['generate','infer']

@@ -1,0 +1,9 @@
+依赖
+t2t1.6.2
+tf1.5.1
+
+
+1,将 transformer_score_yr_t2t162.py   放到src/目录下   并写入  src/__init__.py     如：import diagnosisproblem,transformer_score_yr  
+2,在test_xxxxx.py文件中 配置初始化模型 传入 参数  尤其 model='transformer_scorer_yr'#
+3，开始预测 分类问题 返回结果 为top5的 概率（不用进一步归一化）和 疾病结果  
+4，其他问题  如语言模型  序列到序列  不用这样操作 和以前一样使用
